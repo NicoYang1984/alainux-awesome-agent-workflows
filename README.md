@@ -27,6 +27,7 @@ Opinionated ways to make coding agents plan, decompose, execute, review, and lea
 - [GSD Core](https://github.com/open-gsd/gsd-core) - A context-engineering workflow that decomposes projects into phases and uses fresh-context subagents for planning, execution, and verification.
 - [gstack](https://github.com/garrytan/gstack) - Opinionated product, engineering, review, and release roles for running a software-development loop with coding agents.
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec) - A lightweight specification workflow for agreeing on requirements and change plans before implementation.
+- [Pilotfish](https://github.com/Nanako0129/pilotfish) - A coding-agent workflow that separates planning and decision-making from bulk execution, with independent model contexts verifying plans and results.
 - [Superpowers](https://github.com/obra/superpowers) - A composable software-development methodology covering design, planning, subagent execution, testing, debugging, review, and delivery.
 - [Task Master](https://github.com/eyaltoledano/claude-task-master) - AI-assisted task decomposition and dependency tracking that feeds executable next steps to coding agents.
 
@@ -55,7 +56,9 @@ Tools for running several coding agents or agent sessions in parallel while keep
 - [AWS CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator) - A supervisor-worker system for coordinating coding agents in isolated terminal sessions with assignment, messaging, and scheduled flows.
 - [Container Use](https://github.com/dagger/container-use) - An MCP server and CLI that gives coding agents isolated containerized environments, branch-backed changes, logs, and human intervention points.
 - [herdr](https://github.com/herdrdev/herdr) - A persistent terminal workspace for launching, observing, and returning to multiple long-running coding-agent sessions.
+- [Lody](https://github.com/LodyAI/Lody) - A shared workspace for dispatching and supervising coding-agent sessions across machines, worktrees, and team members through ACP.
 - [Nimbalyst](https://github.com/Nimbalyst/nimbalyst) - A desktop workspace for parallel coding-agent sessions in isolated worktrees with centralized change review.
+- [Omnigent](https://github.com/omnigent-ai/omnigent) - A meta-harness for coordinating Claude Code, Codex, Cursor, Pi, and custom agents with parallel subagents, policies, sandboxing, and shared sessions.
 - [Orca](https://github.com/stablyai/orca) - An environment for operating a fleet of parallel coding agents across worktrees and remote machines.
 - [Ruflo](https://github.com/ruvnet/ruflo) - A coding-agent orchestration platform with swarm topologies, specialized roles, MCP tools, shared memory, hooks, and workflow plugins.
 
@@ -118,7 +121,7 @@ Generic single-agent SDKs, prompt collections, ordinary MCP servers, abandoned p
 
 To suggest an addition, open an issue or pull request with the link and one or two sentences explaining **what it coordinates** and **why it belongs here**.
 
-_Last reviewed: August 29, 2026._
+_Last reviewed: September 1, 2026._
 
 ## License
 
