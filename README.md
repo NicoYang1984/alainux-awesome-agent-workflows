@@ -45,6 +45,7 @@ SDKs and runtimes for building applications that route, delegate, hand off, para
 - [mcp-agent](https://github.com/lastmile-ai/mcp-agent) - An MCP-native framework with workflow patterns such as parallel fan-out, routing, orchestrator-workers, evaluator loops, and swarms.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Microsoft’s framework for composing agents and graph workflows with routing, handoffs, concurrent execution, state, and observability.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - A lightweight Python SDK for agent loops, manager and handoff patterns, guardrails, sessions, tracing, and multi-agent composition.
+- [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent) - A TypeScript orchestration runtime where a coordinator turns goals into task DAGs at runtime and a deterministic scheduler executes them with approvals, checkpoints, budgets, replay, and external-agent backends.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - A typed Python agent framework with delegation, programmatic handoffs, graph control, tool composition, and durable execution integrations.
 - [Strands Agents](https://github.com/strands-agents/harness-sdk) - A Python and TypeScript agent SDK with lifecycle controls, MCP, multi-agent patterns, sessions, guardrails, tracing, and evaluations.
 
@@ -53,6 +54,7 @@ SDKs and runtimes for building applications that route, delegate, hand off, para
 Tools for running several coding agents or agent sessions in parallel while keeping their work isolated and observable.
 
 - [Agent Orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) - An agent IDE that runs coding agents in isolated sessions and coordinates implementation, CI, review, repair, and merge loops.
+- [Agor](https://github.com/preset-io/agor) - A self-hosted multiplayer web workspace for Claude Code, Codex, Gemini, and other coding agents, with isolated git branches, persistent teammates, MCP control, shared sessions, and per-prompt cost tracking.
 - [AWS CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator) - A supervisor-worker system for coordinating coding agents in isolated terminal sessions with assignment, messaging, and scheduled flows.
 - [Container Use](https://github.com/dagger/container-use) - An MCP server and CLI that gives coding agents isolated containerized environments, branch-backed changes, logs, and human intervention points.
 - [herdr](https://github.com/herdrdev/herdr) - A persistent terminal workspace for launching, observing, and returning to multiple long-running coding-agent sessions.
@@ -87,6 +89,7 @@ Concrete systems that coordinate specialized agents or stages to produce a domai
 - [Godogen](https://github.com/htdt/godogen) - An autonomous game-development workflow that coordinates coding agents to design, implement, run, inspect, and iterate games.
 - [img2threejs](https://github.com/img2threejs/img2threejs) - A staged agent workflow that analyzes a reference image and reconstructs it as editable procedural Three.js code.
 - [OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive) - A business-assistant reference system that presents one executive persona while delegating research, analysis, writing, planning, and review to specialists.
+- [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - An agent skill that turns Claude Code or Codex into a staged motion-production workflow for storyboarding, animating, sound-designing, and QA'ing cinematic product videos with Remotion.
 
 ## Courses and Tutorials
 
@@ -121,7 +124,7 @@ Generic single-agent SDKs, prompt collections, ordinary MCP servers, abandoned p
 
 To suggest an addition, open an issue or pull request with the link and one or two sentences explaining **what it coordinates** and **why it belongs here**.
 
-_Last reviewed: September 1, 2026._
+_Last reviewed: September 3, 2026._
 
 ## License
 
